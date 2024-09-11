@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Satisfy&display=swap');
 *
 {
     box-sizing: border-box;
@@ -20,6 +20,12 @@ background-color:#330000;
 
 }
 
+.pro{
+    font-family: "Bebas Neue", sans-serif;
+}
+.con{
+    font-family: "Bebas Neue", sans-serif;
+}
 .navbar-brand{
     font-family: "Roboto Mono", monospace;
 }
@@ -31,7 +37,6 @@ background-color:#330000;
 }
 main{
     background-color: #73605B;
-    /* height: 100vh; */
 }
 
 .left h1{
@@ -48,10 +53,8 @@ main{
 }
 .main
 {
-    /* display: flex; */
     gap: 300px;
     padding-top: 100px;
-   /* margin-left: 20px; */
 }
 
 #about{
